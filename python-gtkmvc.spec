@@ -9,6 +9,7 @@ Release:        %mkrel 1
 License:        BSD
 Group:          Development/Python
 Source:         http://ovh.dl.sourceforge.net/sourceforge/pygtkmvc/python-%{modname}-%{version}.tar.gz
+BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Requires:       python pygtk2.0 libglade2
 
