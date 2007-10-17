@@ -49,4 +49,4 @@ export PYTHONPATH="$RPM_BUILD_ROOT%{_libdir}/python%{pyver}/site-packages"
 %defattr(-,root,root)
 %doc docs examples AUTHORS COPYING INSTALL NEWS README PKG-INFO
 %{_bindir}/gtkmvc-progen
-%py_platsitedir/*
+%py_purelibdir/*
