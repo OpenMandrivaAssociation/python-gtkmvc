@@ -3,7 +3,7 @@
 
 Name:           python-%{modname}
 URL:            http://pygtkmvc.sourceforge.net/
-Summary:        Pygtk MVC is a multiplatform implementation of a dialect of the Model-View-Controller and Observer patterns for the PyGTK2.
+Summary:        Pygtk MVC is a multiplatform implementation of a dialect of the Model-View-Controller and Observer patterns for the PyGTK2
 Version:        1.2.1
 Release:        %mkrel 3
 License:        BSD
