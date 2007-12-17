@@ -10,7 +10,6 @@ License:        BSD
 Group:          Development/Python
 Source:         http://ovh.dl.sourceforge.net/sourceforge/pygtkmvc/python-%{modname}-%{version}.tar.gz
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Requires:       python pygtk2.0 libglade2.0
 
 BuildRequires:  python-devel libglade2-devel pygtk2.0-devel
