@@ -5,7 +5,7 @@ Name:           python-%{modname}
 URL:            http://pygtkmvc.sourceforge.net/
 Summary:        Multiplatform implementation of a dialect of the Model-View-Controller and Observer patterns for the PyGTK2
 Version:        1.2.2
-Release:        %mkrel 1
+Release:        %mkrel 2
 License:        BSD
 Group:          Development/Python
 Source:         http://ovh.dl.sourceforge.net/sourceforge/pygtkmvc/python-%{modname}-%{version}.tar.bz2
