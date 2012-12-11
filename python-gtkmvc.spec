@@ -3,17 +3,16 @@
 
 Name:           python-%{modname}
 URL:            http://pygtkmvc.sourceforge.net/
-Summary:        Multiplatform implementation of a dialect of the Model-View-Controller and Observer patterns for the PyGTK2
+Summary:        Model-View-Controller and Observer patterns for the PyGTK2
 Version:        1.2.2
 Release:        %mkrel 2
 License:        BSD
 Group:          Development/Python
-Source:         http://ovh.dl.sourceforge.net/sourceforge/pygtkmvc/python-%{modname}-%{version}.tar.bz2
+Source0:        http://ovh.dl.sourceforge.net/sourceforge/pygtkmvc/python-%{modname}-%{version}.tar.bz2
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 Requires:       python pygtk2.0 libglade2.0
 
-BuildRequires:  python-devel libglade2-devel pygtk2.0-devel
+BuildRequires:  pkgconfig(python) pkgconfig(libglade-2.0) pygtk2.0-devel
 
 %description
 Pygtk MVC is a multiplatform implementation of a dialect
@@ -39,14 +38,10 @@ export CFLAGS="$RPM_OPT_FLAGS"
 export PYTHONPATH="$RPM_BUILD_ROOT%{_libdir}/python%{pyver}/site-packages"
 
 %install
-# -d %{buildroot} -a "%{buildroot}" != "" ] && rm -rf  %{buildroot}
 %{__python} setup.py install --root=$RPM_BUILD_ROOT
 
-%clean
-[ -d %{buildroot} -a "%{buildroot}" != "" ] && rm -rf  %{buildroot}
-
 %files
-%defattr(-,root,root)
 %doc docs examples AUTHORS COPYING INSTALL NEWS README PKG-INFO
 %{_bindir}/gtkmvc-progen
 %py_purelibdir/*
+
