@@ -4,11 +4,11 @@
 Name:           python-%{modname}
 URL:            http://pygtkmvc.sourceforge.net/
 Summary:        Model-View-Controller and Observer patterns for the PyGTK2
-Version:        1.2.2
-Release:        %mkrel 2
+Version:        1.99.1
+Release:        1
 License:        BSD
 Group:          Development/Python
-Source0:        http://ovh.dl.sourceforge.net/sourceforge/pygtkmvc/python-%{modname}-%{version}.tar.bz2
+Source0:        https://sourceforge.net/projects/pygtkmvc/files/pygtkmvc/1.99.1/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 Requires:       python pygtk2.0 libglade2.0
 
@@ -44,4 +44,5 @@ export PYTHONPATH="$RPM_BUILD_ROOT%{_libdir}/python%{pyver}/site-packages"
 %doc docs examples AUTHORS COPYING INSTALL NEWS README PKG-INFO
 %{_bindir}/gtkmvc-progen
 %py_purelibdir/*
+
 

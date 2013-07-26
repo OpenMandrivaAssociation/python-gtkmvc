@@ -1,2 +1,4 @@
+removed_sources:
+  python-gtkmvc-1.2.2.tar.bz2: 982325ee38a235c031d23ba53a5978ac0c492569
 sources:
-  "python-gtkmvc-1.2.2.tar.bz2": 982325ee38a235c031d23ba53a5978ac0c492569
+  python-gtkmvc-1.99.1.tar.gz: ea99233bbc077ee1dc21d5fdebdaeefda2bf6a7e
