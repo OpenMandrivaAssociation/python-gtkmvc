@@ -5,7 +5,7 @@ Name:           python-%{modname}
 URL:            http://pygtkmvc.sourceforge.net/
 Summary:        Model-View-Controller and Observer patterns for the PyGTK2
 Version:        1.99.1
-Release:        1
+Release:        2
 License:        BSD
 Group:          Development/Python
 Source0:        https://sourceforge.net/projects/pygtkmvc/files/pygtkmvc/1.99.1/%{name}-%{version}.tar.gz
