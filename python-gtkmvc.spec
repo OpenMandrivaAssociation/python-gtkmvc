@@ -2,7 +2,7 @@
 %define pyver %(python -V 2>&1 | cut -f2 -d" " | cut -f1,2 -d".")
 
 Name:           python-%{modname}
-URL:            http://pygtkmvc.sourceforge.net/
+URL:            https://pygtkmvc.sourceforge.net/
 Summary:        Model-View-Controller and Observer patterns for the PyGTK2
 Version:        1.99.1
 Release:        2
